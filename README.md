@@ -27,5 +27,5 @@ Every application in the project contains their individual Dockerfile which will
 
 Once the image is provided, then we will 
 * setup the kubernetes infrastructure and deploy our images using k8s deployments and manage them using k8s services.
-* use kubernetess-ingress for load balancing our application for both prod and other envs.
+* use ingress-nginx for load balancing our application for both prod and other envs.
 * introduce **skaffold.yaml** file in our project to avoid constant manual k8s build if we make changes to our services. This is only for development purpose.
